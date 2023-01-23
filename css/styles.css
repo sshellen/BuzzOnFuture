@@ -1,0 +1,671 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins:wght@400;700&display=swap");
+
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.headingWrapper {
+  background-color: #fff;
+  width: 100%;
+}
+.headingWrapper .heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  height: 180px;
+}
+.headingWrapper .heading .headingCols {
+  display: flex;
+  flex-direction: row;
+  padding: 0 30px;
+  box-sizing: border-box;
+  width: 1000px;
+  align-items: flex-start;
+}
+.headingWrapper .heading .headingCols .left {
+  width: 360px;
+}
+.headingWrapper .heading .headingCols .right {
+  width: 640px;
+  padding-top: 30px;
+  margin-left: auto;
+}
+.headingWrapper .heading .headingCols p {
+  margin: 0 0 20px 0;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  color: #333;
+}
+.headingWrapper .heading .left img {
+  width: 200px;
+}
+h2 {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 14px;
+}
+.infoButton {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  width: 100%;
+  cursor: pointer;
+}
+.infoButton img {
+  margin-left: auto;
+  width: 40px;
+}
+
+#listings {
+  display: flex;
+  flex-direction: row;
+  width: 420px;
+}
+#listings .left {
+  margin-right: 20px;
+}
+.listing {
+  margin-bottom: 20px;
+  max-width: 220px;
+  min-width: 220px;
+}
+.listing h2 {
+  padding: 15px 10px;
+  box-sizing: border-box;
+  margin: 0;
+  border-top: solid 1px #999;
+  border-left: solid 1px #999;
+  border-right: solid 1px #999;
+}
+.listing h2.governance {
+  background-color: rgb(110, 155, 195, 0.8);
+  border: solid 1px rgb(110, 155, 195, 0.8);
+}
+.listing h2.socialTech {
+  background-color: rgb(225, 87, 89, 0.7);
+  border: solid 1px rgb(225, 87, 89, 0.7);
+}
+.listing h2.economy {
+  background-color: rgb(213, 192, 11, 0.8);
+  border: solid 1px rgb(213, 192, 11, 1);
+}
+.listing h2.populations {
+  background-color: rgba(242, 142, 44, 0.7);
+  border: solid 1px rgba(242, 142, 44, 0.7);
+}
+.listing h2.climate {
+  background-color: rgb(106, 195, 38, 0.7);
+  border: solid 1px rgb(106, 195, 38, 0.7);
+}
+.listing h2.AI {
+  background-color: rgb(161, 79, 134, 0.7);
+  border: solid 1px rgb(161, 79, 134, 0.7);
+}
+
+.listing ul {
+  margin: 0;
+  padding: 0;
+}
+.listing ul li {
+  display: flex;
+  flex-direction: row;
+  background-color: #f5f5f5;
+  font-size: 12px;
+  color: #333;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 100%;
+  border-bottom: solid 1px #999;
+  border-left: solid 1px #999;
+  border-right: solid 1px #999;
+  cursor: pointer;
+}
+.listing ul li:hover {
+  background-color: #ccc;
+  color: #000;
+}
+.listing ul li.selected {
+  background-color: #555;
+  color: #fff;
+  cursor: pointer;
+}
+
+.listing ul li.description {
+  background-color: #ddd;
+  color: #333;
+  padding: 3px 10px;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.listing ul li .right {
+  margin-left: auto;
+  text-align: right;
+}
+.bubbleChart {
+  min-width: 460px;
+  max-width: 460px;
+  height: auto;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.outline circle,
+.outline ellipse {
+  stroke: #555;
+  fill: #555;
+  stroke-width: 4px;
+}
+.body {
+  display: flex;
+  flex-direction: column;
+  background-color: #fdf8e0;
+  background-image: url("/img/pattern.png");
+  background-repeat: repeat;
+  align-items: center;
+}
+.body .top {
+  display: flex;
+  flex-direction: row;
+}
+.body .top .bubbleChart {
+  margin: 30px 10px 30px 10px;
+}
+.body .top #listings {
+  margin: 10px 30px 30px 0;
+}
+.body .subject {
+  padding: 0 30px 60px 30px;
+  box-sizing: border-box;
+  width: 1000px;
+}
+.body .subject .top {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 1000px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+
+.body .subject .top .image {
+  width: 360px;
+  text-align: right;
+  padding: 80px 45px 0 0;
+  box-sizing: border-box;
+}
+.body .subject .top .image img {
+  width: 160px;
+}
+.body .subject .top .heading {
+  background: none;
+  width: 640px;
+  box-sizing: border-box;
+}
+.body .subject .top .heading .present {
+  width: 320px;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+.body .subject .bottom {
+  display: flex;
+  flex-direction: column;
+}
+.body .subject .bottomRow {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 1000px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+.body .subject .bottomRow.rowHeading {
+  margin-bottom: 0;
+}
+.body .subject .leftCols {
+  width: 360px;
+  box-sizing: border-box;
+}
+.body .subject .leftCols .col1 {
+  margin-right: 20px;
+}
+
+.body .subject .rightCols {
+  display: flex;
+  flex-direction: row;
+  width: 640px;
+  box-sizing: border-box;
+}
+.body .subject .rightCols .col1 {
+  width: 300px;
+  margin-right: 10px;
+}
+.body .subject .rightCols .col2 {
+  width: 300px;
+  margin-left: 10px;
+}
+.body .subject p {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  color: #333;
+  margin-top: 0;
+}
+.body .subject h1 {
+  font-size: 48px;
+}
+.body .subject h2 {
+  font-size: 30px;
+}
+
+.body .subject h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.body .subject h4 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+
+.body .subject h1,
+.body .subject h2,
+.body .subject h3,
+.body .subject h4 {
+  font-family: "Archivo Black", sans-serif;
+}
+.body .subject.socialTech h1,
+.body .subject.socialTech h2,
+.body .subject.socialTech h3,
+.body .subject.socialTech h4 {
+  color: rgba(225, 87, 89, 0.8);
+}
+.body .subject.socialTech h1.faint,
+.body .subject.socialTech h2.faint,
+.body .subject.socialTech h3.faint,
+.body .subject.socialTech h4.faint {
+  color: rgba(225, 87, 89, 0.5);
+}
+
+.body .subject.populations h1,
+.body .subject.populations h2,
+.body .subject.populations h3,
+.body .subject.populations h4 {
+  color: rgba(242, 142, 44, 0.8);
+}
+
+.body .subject.populations h1.faint,
+.body .subject.populations h2.faint,
+.body .subject.populations h3.faint,
+.body .subject.populations h4.faint {
+  color: rgba(242, 142, 44, 0.5);
+}
+
+.body .subject.governance h1,
+.body .subject.governance h2,
+.body .subject.governance h3,
+.body .subject.governance h4 {
+  color: rgb(110, 155, 195, 0.9);
+}
+
+.body .subject.governance h1.faint,
+.body .subject.governances h2.faint,
+.body .subject.governance h3.faint,
+.body .subject.governance h4.faint {
+  color: rgb(110, 155, 195, 0.5);
+}
+
+.body .subject.AI h1,
+.body .subject.AI h2,
+.body .subject.AI h3,
+.body .subject.AI h4 {
+  color: rgb(161, 79, 134, 0.8);
+}
+
+.body .subject.AI h1.faint,
+.body .subject.AI h2.faint,
+.body .subject.AI h3.faint,
+.body .subject.AI h4.faint {
+  color: rgb(161, 79, 134, 0.5);
+}
+.body .subject.climate h1,
+.body .subject.climate h2,
+.body .subject.climate h3,
+.body .subject.climate h4 {
+  color: rgb(106, 195, 38, 0.8);
+}
+
+.body .subject.climate h1.faint,
+.body .subject.climate h2.faint,
+.body .subject.climate h3.faint,
+.body .subject.climate h4.faint {
+  color: rgb(106, 195, 38, 0.5);
+}
+.body .subject.economy h1,
+.body .subject.economy h2,
+.body .subject.economy h3,
+.body .subject.economy h4 {
+  color: rgb(213, 192, 11, 1);
+}
+
+.body .subject.economy h1.faint,
+.body .subject.economy h2.faint,
+.body .subject.economy h3.faint,
+.body .subject.economy h4.faint {
+  color: rgb(213, 192, 11, 0.5);
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  color: #666;
+  width: 100%;
+}
+.footer .footerContent {
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  padding: 20px 30px;
+  box-sizing: border-box;
+}
+.footer .footerContent .leftCol {
+  width: 360px;
+}
+.footer .footerContent .rightCol {
+  margin-left: auto;
+  text-align: right;
+}
+.lightbox {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background: #fff;
+  color: #242124;
+  height: 1000px;
+  align-items: center;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: #fff;
+  padding: 30px;
+  box-sizing: border-box;
+  overflow: auto;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+.lightbox .header {
+  width: 1000px;
+  color: #ef9d9c;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 48px;
+  margin-bottom: 50px;
+  box-sizing: border-box;
+}
+.lightbox .lightboxRow {
+  display: flex;
+  width: 1000px;
+  box-sizing: border-box;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+.lightbox .lightboxRow .leftCol img {
+  width: 230px;
+  margin-top: 3px;
+}
+.lightbox .lightboxRow .rightCol {
+  width: 500px;
+  box-sizing: border-box;
+}
+.lightbox .rightCol .rightColRow {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.lightbox .rightCol .rightColRow p {
+  margin: 0;
+}
+.lightbox .rightCol .rightColRow .leftCol,
+.lightbox .rightCol .rightColRow .rightCol {
+  width: 400px;
+}
+
+.lightbox .leftCol h3 {
+  width: 200px;
+  font-weight: bold;
+  color: #666;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+.lightbox .rightCol ul {
+  margin: 0;
+  padding: 0;
+}
+.lightbox .rightCol ul li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+.fixed {
+  position: fixed;
+}
+
+.lightbox .close {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.lightbox .close img {
+  width: 30px;
+  height: 30px;
+}
+a,
+a.visited,
+a.active {
+  color: #4e79a7;
+  text-decoration: none;
+}
+a:hover,
+a.visited:hover,
+a.active:hover {
+  text-decoration: underline;
+}
+.buttonRow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.buttonRow .pinkButton {
+  width: 200px;
+  border: none;
+  padding: 10px;
+  background-color: #ef9d9c;
+
+  color: #333;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 30px 0;
+}
+.visuallyHidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+.cls-1,
+.cls-2 {
+  fill: none;
+}
+.cls-3 {
+  fill: rgb(213, 192, 11, 0.8);
+}
+.cls-4 {
+  fill: rgb(161, 79, 134, 0.7);
+}
+.cls-5 {
+  fill: rgb(110, 155, 195, 0.9);
+}
+.cls-6 {
+  fill: rgba(225, 87, 89, 0.7);
+}
+.cls-7 {
+  fill: rgba(242, 142, 44, 0.7);
+}
+.cls-8 {
+  fill: rgb(106, 195, 38, 0.7);
+}
+.cls-2 {
+  clip-path: url(#clippath);
+}
+.cls-1:hover,
+.cls-2:hover,
+.cls-3:hover,
+.cls-4:hover,
+.cls-5:hover,
+.cls-6:hover,
+.cls-7:hover,
+.cls-8:hover {
+  stroke: #555;
+  stroke-width: 4px;
+}
+
+#BubbleChart .st0 {
+  fill: #ef9d9c;
+}
+#BubbleChart .st1 {
+  fill: #333333;
+}
+#BubbleChart .st2 {
+  fill: rgba(225, 87, 89, 0.7);
+}
+#BubbleChart .st3 {
+  fill: #231f20;
+}
+#BubbleChart .st4 {
+  fill: #ffffff;
+  stroke: #666666;
+  stroke-width: 3;
+  stroke-miterlimit: 10;
+}
+
+#ChordChart {
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  padding: 0 30px 40px;
+  box-sizing: border-box;
+}
+#ChordChart div {
+  width: 340px;
+  box-sizing: border-box;
+  padding-right: 20px;
+}
+#ChordChart div h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-family: "Archivo Black", sans-serif;
+  color: #555;
+}
+#ChordChart div p {
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  font-size: 14px;
+}
+#ChordChart svg {
+  width: 640px;
+  height: 640px;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+
+#ChordChart .st0 {
+  fill: rgba(225, 87, 89, 0.8);
+}
+#ChordChart .st1 {
+  font-family: "Poppins", sans-serif;
+}
+#ChordChart .st2 {
+  font-size: 14px;
+}
+#ChordChart .st3 {
+  fill: rgb(161, 79, 134, 0.8);
+}
+#ChordChart .st4 {
+  fill: rgb(106, 195, 38, 0.9);
+}
+#ChordChart .st5 {
+  fill: rgba(242, 142, 44, 0.7);
+}
+#ChordChart .st6 {
+  fill: rgb(110, 155, 195, 0.8);
+}
+#ChordChart .st7 {
+  fill: rgb(213, 192, 11, 1);
+}
+#ChordChart .st8 {
+  fill: rgb(161, 79, 134, 0.8);
+}
+#ChordChart .st9 {
+  fill: rgb(225, 87, 89, 0.8);
+}
+#ChordChart .st10 {
+  fill: rgb(110, 155, 195, 0.7);
+}
+#ChordChart .st11 {
+  fill: rgba(242, 142, 44, 0.7);
+}
+#ChordChart .st12 {
+  fill: rgb(106, 195, 38, 0.7);
+}
+.selectChordLink {
+  fill: #dc8282;
+  stroke: #dc8282;
+}
+.climate.selectChordLink {
+  fill: rgb(106, 195, 38, 0.9);
+  stroke: rgb(106, 195, 38, 0.9);
+}
+.socialTech.selectChordLink {
+  fill: rgb(225, 87, 89, 0.9);
+  stroke: rgb(225, 87, 89, 0.9);
+}
+.AI.selectChordLink {
+  fill: rgb(161, 79, 134, 1);
+  stroke: rgb(161, 79, 134, 1);
+}
+.populations.selectChordLink {
+  fill: rgba(242, 142, 44, 0.9);
+  stroke: rgba(242, 142, 44, 0.9);
+}
+.economy.selectChordLink {
+  fill: rgb(213, 192, 11, 0.9);
+  stroke: rgb(213, 192, 11, 0.9);
+}
+.governance.selectChordLink {
+  fill: rgb(110, 155, 195, 0.9);
+  stroke: rgb(110, 155, 195, 0.9);
+}
+.tip {
+  display: none;
+  position: absolute;
+  padding: 10px;
+  background-color: #f5f5f5;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  color: #333;
+  border: 1px solid #666;
+}

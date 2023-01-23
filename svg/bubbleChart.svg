@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.5.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="BubbleChart" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 673.2 1200.3" style="enable-background:new 0 0 673.2 1200.3;" xml:space="preserve">
+<g id="SocialTech">
+	<g id="IOT">
+		<circle cx="322" cy="880.1" r="314.9"/>
+	</g>
+	<g id="SmartCities">
+		<ellipse transform="matrix(0.7071 -0.7071 0.7071 0.7071 -243.5318 565.2601)" cx="560.6" cy="576.6" rx="68.2" ry="68.2"/>
+	</g>
+	<g id="SharingEconomy">
+		<circle cx="604.6" cy="472.3" r="42.1"/>
+	</g>
+	<g id="MegaCities">
+		<ellipse transform="matrix(0.1602 -0.9871 0.9871 0.1602 11.2457 851.6556)" cx="506.1" cy="419.2" rx="26.1" ry="26.2"/>
+	</g>
+	<g id="AutonomousVehicles">
+		<circle cx="547.9" cy="419.7" r="12.8"/>
+	</g>
+	<g id="InfrastructureBottlenecks">
+		<circle cx="402.6" cy="467.2" r="6"/>
+	</g>
+	<g id="BlockChain">
+		<circle cx="445.9" cy="195.7" r="189"/>
+	</g>
+</g>
+<g id="AI">
+	<g id="MachineLearning">
+		<circle cx="201.7" cy="431.5" r="146.6"/>
+	</g>
+	<g id="MachineReading">
+		<circle cx="618.1" cy="523" r="7.5"/>
+	</g>
+	<g id="Robotics">
+		<circle cx="615.4" cy="410.7" r="17.5"/>
+	</g>
+</g>
+<g id="Populations">
+	<g id="WomenStatus">
+		<circle cx="409" cy="524.2" r="48.5"/>
+	</g>
+	<g id="AgingPopulation">
+		<circle cx="441.9" cy="440.4" r="38.6"/>
+	</g>
+	<g id="PopulationGrowthEast">
+		<circle cx="481.5" cy="529" r="21.2"/>
+	</g>
+	<g id="GlobalMigration">
+		<circle cx="529.5" cy="494.8" r="16.4"/>
+	</g>
+	<g id="PopulationDeclineWest">
+		<circle cx="540.5" cy="455.8" r="21.2"/>
+	</g>
+</g>
+<g id="Government">
+	<g id="DataTransparency">
+		<circle cx="466.4" cy="486.9" r="11.1"/>
+	</g>
+	<g id="GovDotCom">
+		<circle cx="483.9" cy="498.1" r="6.9"/>
+	</g>
+	<g id="CollaborativeGovernance">
+		<circle cx="502.3" cy="503.1" r="9.2"/>
+	</g>
+	<g id="TripleBottomLine">
+		<circle cx="497.3" cy="470" r="21.4"/>
+	</g>
+</g>
+<g id="Economy">
+	<g id="IncomeInequality">
+		<circle cx="579.5" cy="416.7" r="16"/>
+	</g>
+	<g id="DigitalBanking">
+		<circle cx="566.6" cy="380.2" r="19.8"/>
+	</g>
+</g>
+<g id="Climate">
+	<g id="ClimateEngineering">
+		<circle cx="639.8" cy="517.3" r="12.1"/>
+	</g>
+	<g id="ClimateLegislation">
+		<circle cx="592.3" cy="394.5" r="6.8"/>
+	</g>
+	<g id="SustainableEnergy">
+		<circle cx="624.8" cy="349.2" r="41.9"/>
+	</g>
+</g>
+</svg>
