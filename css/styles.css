@@ -164,9 +164,6 @@ h2 {
   display: flex;
   flex-direction: column;
   background-color: #fdf8e0;
-  background-image: url("../img/pattern.png");
-  background-repeat: repeat;
-  min-height: 100vh;
   align-items: center;
 }
 .body .top {
@@ -432,6 +429,7 @@ h2 {
   align-items: flex-start;
 }
 .lightbox .rightCol .rightColRow p {
+  color: #666;
   margin: 0;
 }
 .lightbox .rightCol .rightColRow .leftCol,
@@ -453,7 +451,7 @@ h2 {
 }
 .lightbox .rightCol ul li {
   list-style: none;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 .fixed {
   position: fixed;
