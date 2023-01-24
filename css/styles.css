@@ -164,7 +164,7 @@ h2 {
   display: flex;
   flex-direction: column;
   background-color: #fdf8e0;
-  background-image: url("./img/pattern.png");
+  background-image: url("/pattern.png");
   background-repeat: repeat;
   align-items: center;
 }
