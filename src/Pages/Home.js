@@ -152,7 +152,7 @@ class Home extends React.Component {
   render() {
     return (
       <div className="body"   style={{
-          backgroundImage: bgImage,
+          backgroundImage: "url(" + bgImage + ")",
           backgroundRepeat: "repeat",
         }}>
         <div className="headingWrapper">
