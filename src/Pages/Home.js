@@ -150,7 +150,10 @@ class Home extends React.Component {
 
   render() {
     return (
-      <div className="body">
+      <div className="body"  style={{
+          backgroundImage: "url(/img/pattern.png)",
+          backgroundRepeat: "repeat",
+        }}>
         <div className="headingWrapper">
           <div className="heading">
             <div className="headingCols">
