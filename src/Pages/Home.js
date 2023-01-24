@@ -220,7 +220,7 @@ class Home extends React.Component {
             </div>
             <div className="rightCol">
               <a href="#" onClick={this.openBox}>
-                Info on data sets and SVGs
+                Info on data sources and SVGs
               </a>
             </div>
           </div>
