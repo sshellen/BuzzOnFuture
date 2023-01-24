@@ -8,6 +8,7 @@ import SubjectLoader from "../Components/SubjectLoader";
 import { gsap } from "gsap";
 import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 import buzzTitle from "/img/BuzzTitle.png";
+import bgImage from "/img/pattern.png";
 gsap.registerPlugin(ScrollToPlugin);
 class Home extends React.Component {
   constructor(props) {
@@ -150,8 +151,8 @@ class Home extends React.Component {
 
   render() {
     return (
-      <div className="body"  style={{
-          backgroundImage: "url(/img/pattern.png)",
+      <div className="body"   style={{
+          backgroundImage: bgImage,
           backgroundRepeat: "repeat",
         }}>
         <div className="headingWrapper">
