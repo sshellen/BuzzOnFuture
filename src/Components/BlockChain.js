@@ -9,7 +9,7 @@ const BlockChain = ({ select }) => {
         </div>
         <div className="heading">
           <h1>SOCIAL TECHNOLOGY</h1>
-          <h2>BLOCK CHAIN</h2>
+          <h2>BLOCKCHAIN</h2>
           <div className="present">
             <h3>PRESENT</h3>
             <h4>2023</h4>
