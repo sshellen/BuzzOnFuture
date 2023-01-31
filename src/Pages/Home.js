@@ -219,8 +219,11 @@ class Home extends React.Component {
         </div>
         <div className="footer">
           <div className="footerContent">
-            <div className="leftCol">
-              Visualization by <strong>Steinar Shellenberger</strong>
+         <div className="leftCol">
+              Visualization by{" "}
+              <a href="http://www.blue-bee.com" target="_blank">
+                Steinar Shellenberger
+              </a>
             </div>
             <div className="rightCol">
               <a href="#" onClick={this.openBox}>
